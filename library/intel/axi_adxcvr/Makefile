@@ -3,8 +3,12 @@
 ## Auto-generated, do not modify!
 ####################################################################################
 
-LIBRARY_NAME := alt_mem_asym
+LIBRARY_NAME := axi_adxcvr
 
-ALTERA_DEPS += alt_mem_asym_hw.tcl
+GENERIC_DEPS += axi_adxcvr.v
+GENERIC_DEPS += axi_adxcvr_up.v
 
-include ../../../scripts/library.mk
+INTEL_DEPS += ../../common/up_axi.v
+INTEL_DEPS += axi_adxcvr_hw.tcl
+
+include ../../scripts/library.mk

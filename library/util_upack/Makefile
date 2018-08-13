@@ -11,6 +11,6 @@ GENERIC_DEPS += util_upack_dsf.v
 
 XILINX_DEPS += util_upack_ip.tcl
 
-ALTERA_DEPS += util_upack_hw.tcl
+INTEL_DEPS += util_upack_hw.tcl
 
 include ../scripts/library.mk

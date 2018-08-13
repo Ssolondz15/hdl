@@ -3,11 +3,14 @@
 ## Auto-generated, do not modify!
 ####################################################################################
 
-LIBRARY_NAME := avl_adxcvr
+LIBRARY_NAME := jesd204_phy
 
-ALTERA_DEPS += avl_adxcvr_hw.tcl
+GENERIC_DEPS += jesd204_phy_glue.v
 
-ALTERA_LIB_DEPS += altera/avl_adxcvr_octet_swap
-ALTERA_LIB_DEPS += altera/avl_adxphy
+INTEL_DEPS += jesd204_phy_glue_hw.tcl
+INTEL_DEPS += jesd204_phy_hw.tcl
+
+INTEL_LIB_DEPS += jesd204/jesd204_soft_pcs_rx
+INTEL_LIB_DEPS += jesd204/jesd204_soft_pcs_tx
 
 include ../../scripts/library.mk

@@ -3,9 +3,10 @@
 ## Auto-generated, do not modify!
 ####################################################################################
 
-LIBRARY_NAME := alt_ifconv
+LIBRARY_NAME := avl_adxcvr_octet_swap
 
-ALTERA_DEPS += alt_ifconv.v
-ALTERA_DEPS += alt_ifconv_hw.tcl
+GENERIC_DEPS += avl_adxcvr_octet_swap.v
 
-include ../../../scripts/library.mk
+INTEL_DEPS += avl_adxcvr_octet_swap_hw.tcl
+
+include ../../scripts/library.mk

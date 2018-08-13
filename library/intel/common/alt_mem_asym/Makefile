@@ -3,8 +3,9 @@
 ## Auto-generated, do not modify!
 ####################################################################################
 
-LIBRARY_NAME := alt_serdes
+LIBRARY_NAME := alt_mem_asym
 
-ALTERA_DEPS += alt_serdes_hw.tcl
+
+INTEL_DEPS += alt_mem_asym_hw.tcl
 
 include ../../../scripts/library.mk

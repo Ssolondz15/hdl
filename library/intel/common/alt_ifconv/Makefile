@@ -3,11 +3,10 @@
 ## Auto-generated, do not modify!
 ####################################################################################
 
-LIBRARY_NAME := axi_adxcvr
+LIBRARY_NAME := alt_ifconv
 
-ALTERA_DEPS += ../../common/up_axi.v
-ALTERA_DEPS += axi_adxcvr.v
-ALTERA_DEPS += axi_adxcvr_hw.tcl
-ALTERA_DEPS += axi_adxcvr_up.v
+GENERIC_DEPS += alt_ifconv.v
 
-include ../../scripts/library.mk
+INTEL_DEPS += alt_ifconv_hw.tcl
+
+include ../../../scripts/library.mk

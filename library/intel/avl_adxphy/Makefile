@@ -3,13 +3,10 @@
 ## Auto-generated, do not modify!
 ####################################################################################
 
-LIBRARY_NAME := adi_jesd204
+LIBRARY_NAME := avl_adxphy
 
-ALTERA_DEPS += adi_jesd204_hw.tcl
+GENERIC_DEPS += avl_adxphy.v
 
-ALTERA_LIB_DEPS += altera/axi_adxcvr
-ALTERA_LIB_DEPS += altera/jesd204_phy
-ALTERA_LIB_DEPS += jesd204/jesd204_soft_pcs_rx
-ALTERA_LIB_DEPS += jesd204/jesd204_soft_pcs_tx
+INTEL_DEPS += avl_adxphy_hw.tcl
 
 include ../../scripts/library.mk
